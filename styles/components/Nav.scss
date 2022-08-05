@@ -2,6 +2,11 @@ nav{
     background-color: black;
     position: fixed;
     width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding-top: 10px;
+    
  
 }
 
@@ -37,6 +42,7 @@ nav{
     letter-spacing: 3px;
     color: white;
     padding: 0 12px;
+   
     height: 10vh;
     display: flex;
     align-items: center;
@@ -60,12 +66,16 @@ nav{
     gap: 12px;
  a{
     cursor: pointer;
- }
     path{
         color: white;
+        transition: all 0.4s;
         
     }
-    path:hover{
-        color: #fccb8d;
-    }
+ }
+ a:hover{
+     path{
+         color: #fccb8d;
+     }
+
+ }
 }

@@ -1,0 +1,41 @@
+
+
+.where-title{
+    
+    h2{
+        margin-left: 24px;
+        padding-right: 24px;
+        border-right: solid black 3px;
+        width: fit-content;
+    }
+}
+
+.where-description-wrapper{
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    background-image: url(../../assets/img/where-background.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.where-description{
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+    p{
+        color: white;
+
+    }
+}
+
+.where-description-col-1{
+    padding-left: 24px;
+    width: 50%;
+}
+.where-description-col-2{
+    padding: 0 24px 24px 24px;
+    width: 70%;
+}
