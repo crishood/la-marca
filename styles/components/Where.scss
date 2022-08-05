@@ -1,0 +1,64 @@
+
+
+.where-title{
+    
+    h2{
+        margin-left: 24px;
+        padding-right: 24px;
+        border-right: solid black 3px;
+        width: fit-content;
+    }
+}
+.where-title-2{
+    
+    h2{
+        padding-right: 24px;
+        border-right: solid black 3px;
+        width: fit-content;
+    }
+}
+
+.where-description-wrapper{
+    width: 100%;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    background-image: url(../../assets/img/where-background.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.where-description{
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ 
+    p{
+        color: white;
+
+    }
+}
+
+.where-description-col-1{
+    padding-left: 24px;
+    width: 50%;
+}
+.where-description-col-2{
+    padding: 0 24px 24px 24px;
+    width: 70%;
+}
+
+.where-picture-description{
+    padding-top: 12px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.where-picture-frame{
+    margin-top: -19%;
+    margin-left: -2%;
+}
+
+.where-picture-text{
+    width: 60%;
+}

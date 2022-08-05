@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import "fonts/gotham.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Segoe UI,  Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+p{
+  font-family: 'gothamlight';
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+h2{
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.beige-bg{
+  background-color: #fccb8d;
+}
+
+.beige-font{
+  color: #fccb8d;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
