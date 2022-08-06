@@ -1,5 +1,6 @@
 .contact{
     margin-bottom: 24px;
+    padding-bottom: 100px;
 }
 .contact-title{
     h2{
@@ -81,4 +82,17 @@ button{
     border-style: none;
     padding: 8px;
     cursor: pointer;
+}
+
+.errors{
+    p{
+        color: rgb(225, 63, 63);
+
+    }
+}
+
+.sent{
+    p{
+        color: rgb(58, 172, 58);
+    }
 }
