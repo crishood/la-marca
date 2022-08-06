@@ -1,4 +1,4 @@
-nav{
+.nav{
     background-color: black;
     position: fixed;
     width: 100%;
@@ -6,8 +6,9 @@ nav{
     top: 0;
     z-index: 10;
     padding-top: 10px;
-    
- 
+    @media only screen and (max-width: 768px) {
+        display: none;
+      }
 }
 
 .nav-container{
@@ -17,6 +18,7 @@ nav{
     border-bottom: solid grey 2px;
     padding: 0;
     
+    
 }
 
 .nav-logo-container{
@@ -24,12 +26,16 @@ nav{
     border-bottom: solid #fccb8d 4px;
     display: flex;
     align-items: center;
+    
 }
 
 .logo{
     color: white;
     font-size: 40px;
     font-weight: 700;
+    @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+        font-size: 18px;
+    }
 }
 .nav-menu{
     display: flex;
@@ -51,6 +57,9 @@ nav{
     transition: all 0.3s;
     text-transform: uppercase;
     font-weight: 300;
+    @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+        font-size: 12px;
+    }
 }
 
 .nav-menu-option:hover{

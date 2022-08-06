@@ -6,10 +6,10 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Nav = () => {
   return (
-    <nav>
+    <nav className="nav">
       <div className="container nav-container">
         <div className="nav-logo-container">
-          <span className="logo">MEN'S WEAR</span>
+          <span className="logo">MEN&apos;S WEAR</span>
         </div>
         <div className="nav-menu">
           <div className="nav-menu-option">
