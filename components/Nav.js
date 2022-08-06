@@ -22,9 +22,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            <div className="nav-menu-option">
-              <a>La marca</a>
-            </div>
+            <div className="nav-menu-option">La marca</div>
           </Link>
           <Link
             activeClass="active"
@@ -34,9 +32,7 @@ const Nav = () => {
             offset={-70}
             duration={500}
           >
-            <div className="nav-menu-option">
-              <a>Productos</a>
-            </div>
+            <div className="nav-menu-option">Productos</div>
           </Link>
           <Link
             activeClass="active"
@@ -46,9 +42,7 @@ const Nav = () => {
             offset={-120}
             duration={500}
           >
-            <div className="nav-menu-option">
-              <a>¿Dónde comprar?</a>
-            </div>
+            <div className="nav-menu-option">¿Dónde comprar?</div>
           </Link>
           <Link
             activeClass="active"
@@ -58,9 +52,7 @@ const Nav = () => {
             offset={-380}
             duration={500}
           >
-            <div className="nav-menu-option">
-              <a>Contáctanos</a>
-            </div>
+            <div className="nav-menu-option">Contáctanos</div>
           </Link>
           <div className="nav-menu-socialMedia">
             <a>

@@ -1,4 +1,16 @@
+import { useForm } from "react-hook-form";
+
 const Contact = () => {
+  const {
+    register,
+    handleSubmit,
+    watch,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
+
+  console.log(watch("example"));
+
   return (
     <section className="contact" id="contact">
       <div className="container">
