@@ -9,14 +9,7 @@
         width: fit-content;
     }
 }
-.where-title-2{
-    
-    h2{
-        padding-right: 24px;
-        border-right: solid black 3px;
-        width: fit-content;
-    }
-}
+
 
 .where-description-wrapper{
     width: 100%;
@@ -37,28 +30,50 @@
         color: white;
 
     }
+    @media only screen and (max-width: 768px) {
+        display: block;
+      }
 }
 
 .where-description-col-1{
     padding-left: 24px;
     width: 50%;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding-left: 12px;
+      }
 }
 .where-description-col-2{
     padding: 0 24px 24px 24px;
     width: 70%;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 0 24px 12px;
+      }
 }
 
 .where-picture-description{
     padding-top: 12px;
     display: grid;
     grid-template-columns: 50% 50%;
+    @media only screen and (max-width: 768px) {
+        display: block;
+      }
 }
 
 .where-picture-frame{
     margin-top: -19%;
     margin-left: -2%;
+    @media only screen and (max-width: 768px) {
+        margin-top: -10%;
+      }
 }
 
 .where-picture-text{
     width: 60%;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding: 0 0 24px 12px;
+        
+      }
 }

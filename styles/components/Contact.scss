@@ -1,0 +1,82 @@
+.contact{
+    margin-bottom: 24px;
+}
+.contact-title{
+    h2{
+        padding-right: 24px;
+        border-right: solid black 3px;
+        width: fit-content;
+    }
+}
+.contact-form{
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding-bottom: 24px;
+    @media only screen and (max-width: 768px) {
+        display: block;
+      }
+}
+
+.contact-form-col{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+
+input{
+    text-transform: capitalize;
+    font-family: 'gothamlight';
+  letter-spacing: 2px;
+  font-weight: 300;
+  padding: 8px;
+  border-style: none;
+  background-color: #e9e8e9;
+}
+
+select{
+    
+    font-family: 'gothamlight';
+    color: grey;
+
+    option{
+        color: black;    
+        font-family: 'gothamlight';
+
+    }
+  letter-spacing: 2px;
+  font-weight: 300;
+  padding: 8px 3px;
+  border-style: none;
+  background-color: #e9e8e9;
+}
+
+.contact-form-check{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 12px;
+        margin-top: 12px;
+        align-items: flex-end;
+      }
+}
+
+label{
+    font-family: 'gothamlight';
+    letter-spacing: 2px;
+  font-weight: 300;
+}
+
+button{
+    font-family: 'gothamlight';
+    letter-spacing: 2px;
+    font-weight: 300;
+    background-color: #fccb8d;
+    border-style: none;
+    padding: 8px;
+    cursor: pointer;
+}
