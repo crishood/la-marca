@@ -4,6 +4,8 @@ import {
   faInstagram,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import { Link, animateScroll as scroll } from "react-scroll";
+
 const Nav = () => {
   return (
     <nav className="nav">
@@ -12,18 +14,54 @@ const Nav = () => {
           <span className="logo">MEN&apos;S WEAR</span>
         </div>
         <div className="nav-menu">
-          <div className="nav-menu-option">
-            <a>La marca</a>
-          </div>
-          <div className="nav-menu-option">
-            <a>Productos</a>
-          </div>
-          <div className="nav-menu-option">
-            <a>¿Dónde comprar?</a>
-          </div>
-          <div className="nav-menu-option">
-            <a>Contáctanos</a>
-          </div>
+          <Link
+            activeClass="active"
+            to="hero"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            <div className="nav-menu-option">
+              <a>La marca</a>
+            </div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="trademark"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <div className="nav-menu-option">
+              <a>Productos</a>
+            </div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="where"
+            spy={true}
+            smooth={true}
+            offset={-120}
+            duration={500}
+          >
+            <div className="nav-menu-option">
+              <a>¿Dónde comprar?</a>
+            </div>
+          </Link>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-380}
+            duration={500}
+          >
+            <div className="nav-menu-option">
+              <a>Contáctanos</a>
+            </div>
+          </Link>
           <div className="nav-menu-socialMedia">
             <a>
               <FontAwesomeIcon icon={faFacebookF} size="xl" />

@@ -9,7 +9,7 @@ const Where = () => {
         </div>
         <div className="where-description-wrapper">
           <div className="container">
-            <div className="where-description">
+            <div className="where-description" id="where">
               <div className="where-description-col-1">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

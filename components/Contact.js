@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="container">
         <div className="contact-title">
           <h2>Súscribete a nuestro newsletter</h2>
@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="contact-form-col">
             <input type="text" placeholder="NOMBRE: " />
             <select name="select">
-              <option hidden selected>
+              <option hidden defaultValue>
                 TIPO DE DOCUMENTO:
               </option>
               <option value="value1">CÉDULA DE CIUDADANÍA</option>
